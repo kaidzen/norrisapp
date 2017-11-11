@@ -1,0 +1,11 @@
+<Context>
+    <Resource name="jdbc/c9"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="tomcat"
+              password="tomcat"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/c9"
+              maxActive="15"
+              maxIdle="3" />
+</Context>
